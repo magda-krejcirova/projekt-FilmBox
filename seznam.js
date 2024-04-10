@@ -103,4 +103,43 @@ const filmy = [
 			'Na zámek v podhůří Krkonoš přijíždí jeho nový majitel Štěpán se svojí snoubenkou, krásnou komtesou Blankou, a mladším bratrem Adamem. Cestou kočár nešťastně srazí kolemjdoucí dívku, Adam jí pomůže a ona se do něj zamiluje. Na zámku Adam objeví starou vlašskou knihu, která by měla obsahovat cestu k pokladům. Tajemné značky vlašské knihy však nedokáže vyluštit ani národopisec Jiráček, který v kraji sbírá pověsti a nevychází z údivu nad tím, že zdejší lidé stále věří v Krakonoše. Na zámku se objeví záhadný cizinec a nabídne Štěpánovi, že jej k pokladu za určitých podmínek dovede. Výprava do hor může začít. Naplní se Liduščina láska k Adamovi? Jakou záhadu skrývá starý obraz na zámku Hůrka a co strašlivého se v horách kdysi odehrálo? A kdo je vlastně Krakonoš a jaké je jeho největší tajemství? (csfd.cz, Česká televize)',
 		premiera: '2022-12-24',
 	},
+	{
+		id: 'parazit',
+		nazev: 'Parazit',
+		plakat: {
+			url: 'https://scontent-fra5-1.xx.fbcdn.net/v/t1.6435-9/108803297_3341863399168024_7013163446161339557_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=xVn02KCBxgwAb5z3_fI&_nc_ht=scontent-fra5-1.xx&oh=00_AfBIvUsEHIv8aYvEdLsVSv0EdwZtrvu0hJD3j_ZNfgfMyw&oe=663B8183',
+			sirka: 420,
+			vyska: 592,
+		},
+		ochutnavka: 'Černá komedie sleduje chudou, ale mazanou čtyřčlennou rodinu.',
+		popis:
+			'Černá komedie režiséra Bong Joon-hoa (Snowpiercer, Okja) sleduje chudou, ale mazanou čtyřčlennou rodinu, která se rozhodne infiltrovat do bohaté domácnosti byznysmena Parka. Co se může stát, když se setkají dva tak odlišné světy? Originální dílo mistrovsky pracuje s prvky thrilleru, dramatu i satiry a přináší vtipný a nepředvídatelný divácký zážitek. Parazit byl oceněný Zlatou palmou a podle mnohých ohlasů se tak stal nejzábavnějším vítězem festivalu v Cannes od dob Pulp Fiction. (csfd.cz, Česká televize)',
+		premiera: '2020-05-06',
+	},
 ]
+//////////////////////// UKOL - 4 nacteni filmu ////////////////
+//// + bonus pridat film Parazit
+const filmElm = document.querySelector("#seznam-filmu")
+// const smazPuvodniPredlohu = document.querySelector(".col")
+//smazPuvodniPredlohu.remove.Attribute(".col")
+
+filmy.forEach((polozka, index) => {
+	console.log(polozka.plakat.url)
+	filmElm.innerHTML +=`
+	<div class="col">
+	<div class="card">
+	   <img
+		  src=${polozka.plakat.url}
+		  width=${polozka.plakat.sirka}
+		  height=${polozka.plakat.vyska}
+		  class="card-img-top"
+		  alt="plakát"
+	   />
+	   <div class="card-body">
+		  <h5 class="card-title">${polozka.nazev}</h5>
+		  <p class="card-text">${polozka.ochutnavka}</p>
+		  <a href="film.html#${polozka.id}" class="btn btn-primary">Přehrát</a>
+	   </div>
+	</div>
+ 	</div>`
+})

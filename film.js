@@ -10,7 +10,7 @@ const filmy = [
 		ochutnavka: 'České drama z období 1968.',
 		popis:
 			'A je tu zpět jedna z nejúspěšnějších českých filmových komedií od renomovaných tvůrců - režiséra J. Hřebejka a scenáristy P. Jarchovského s řadou skvělých herců. Vraťme se tedy s oblíbenými postavami k rodinným rituálům, láskám a trapasům odehrávajícím se na sklonku šedesátých let minulého století v jedné pražské čtvrti. Jemná poetika a humorná nadsázka jsou charakteristické pro vyprávění životních osudů tří generací mužů a žen ve zvláštním období našich dějin v roce 1968… V jedné dvoupatrové vile tu žijí dvě rodiny - Šebkovi a Krausovi. Otec Šebek (M. Donutil), prostoduchý, ale dobrácký důstojník z povolání, je zastáncem panujícího režimu a stejně vehementně obhajuje i vlastní neomylnost v roli hlavy rodiny. Elegantní otec Kraus (J. Kodet), bývalý odbojář s trpkou válečnou zkušeností, je naopak zarytým opozičníkem. Také on je přesvědčený o tom, že má za všech okolností pravdu - není proto divu, že se tihle dva nemají zrovna v lásce. Jejich děti - gymnazista Michal (M. Beran) a jeho spolužačka Jindřiška (K. Nováková) - spolu vycházejí docela dobře. I když Michal by byl rád, kdyby ho jeho sousedka brala trochu víc na vědomí. Ta má ale oči pro jiného. Nezbývá mu tedy nic jiného, než aby smutně přihlížel, jak mu jeho první milostné body krade spolužák Elien (O. Brousek). U Šebků a Krausů se zatím střídají rodinné návštěvy, ve vší obřadnosti se tu slaví Vánoce, svatba i nečekaný, bolestný pohřeb. Do zabydlených domácností vtrhnou i některé novodobé vymoženosti v podobě umělohmotných lžiček, nerozbitných sklenic i podivných her pro statečné pionýry. Mládež zatím pokukuje po lákadlech světa kapitalismu a snaží se žít svůj vlastní, na rodičovských autoritách a "velké" historii nezávislý život. V soukromí rodinných pelíšků se tak čas od času odehrají malá dramata názorů a vztahů, která se v paměti jejich účastníků otisknou už nejspíš navždy… (csfd.cz, Česká televize)',
-		premiera: '2019-04-08',
+		premiera: '2025-04-08',
 	},
 	{
 		id: 'promlceno',
@@ -23,7 +23,7 @@ const filmy = [
 		ochutnavka: 'Český krimi thriller s Karlem Rodenem.',
 		popis:
 			'Šokující živé vysílaní, které během chvíle změní životy několika nevinných lidí. Radek (Karel Roden) se po téměř dvaceti letech nečekaně vrací do svého rodného města, aby zde nalezl jistou mladou ženu a jednou provždy se vyrovnal se svou minulostí. V pátrání po neznámé ženě mu pomáhá Eva, ambiciózní rozhlasová moderátorka, která jeho příběh dostane do své živě vysílané noční show. Chtěla mít ve vysílání senzační událost, ale k jejímu zděšení a ke zděšení všech posluchačů začne na povrch vyplouvat něco, s čím nikdo nepočítal. Svůj plán připravoval Radek několik let a během jeho vyprávění je do pochmurného příběhu vtažena nejen ona sama, ale i pražská kriminálka a další aktéři dlouho zapomenutých událostí. Začíná napínavý boj o čas a o spravedlnost. Opravdu už je vše nenávratně promlčeno? (csfd.cz, Bontonfilm)',
-		premiera: '2022-04-28',
+		premiera: '2025-04-28',
 	},
 	{
 		id: 'ona',
@@ -103,4 +103,124 @@ const filmy = [
 			'Na zámek v podhůří Krkonoš přijíždí jeho nový majitel Štěpán se svojí snoubenkou, krásnou komtesou Blankou, a mladším bratrem Adamem. Cestou kočár nešťastně srazí kolemjdoucí dívku, Adam jí pomůže a ona se do něj zamiluje. Na zámku Adam objeví starou vlašskou knihu, která by měla obsahovat cestu k pokladům. Tajemné značky vlašské knihy však nedokáže vyluštit ani národopisec Jiráček, který v kraji sbírá pověsti a nevychází z údivu nad tím, že zdejší lidé stále věří v Krakonoše. Na zámku se objeví záhadný cizinec a nabídne Štěpánovi, že jej k pokladu za určitých podmínek dovede. Výprava do hor může začít. Naplní se Liduščina láska k Adamovi? Jakou záhadu skrývá starý obraz na zámku Hůrka a co strašlivého se v horách kdysi odehrálo? A kdo je vlastně Krakonoš a jaké je jeho největší tajemství? (csfd.cz, Česká televize)',
 		premiera: '2022-12-24',
 	},
+	{
+		id: 'parazit',
+		nazev: 'Parazit',
+		plakat: {
+			url: 'https://scontent-fra5-1.xx.fbcdn.net/v/t1.6435-9/108803297_3341863399168024_7013163446161339557_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=xVn02KCBxgwAb5z3_fI&_nc_ht=scontent-fra5-1.xx&oh=00_AfBIvUsEHIv8aYvEdLsVSv0EdwZtrvu0hJD3j_ZNfgfMyw&oe=663B8183',
+			sirka: 420,
+			vyska: 592,
+		},
+		ochutnavka: 'Černá komedie sleduje chudou, ale mazanou čtyřčlennou rodinu.',
+		popis:
+			'Černá komedie režiséra Bong Joon-hoa (Snowpiercer, Okja) sleduje chudou, ale mazanou čtyřčlennou rodinu, která se rozhodne infiltrovat do bohaté domácnosti byznysmena Parka. Co se může stát, když se setkají dva tak odlišné světy? Originální dílo mistrovsky pracuje s prvky thrilleru, dramatu i satiry a přináší vtipný a nepředvídatelný divácký zážitek. Parazit byl oceněný Zlatou palmou a podle mnohých ohlasů se tak stal nejzábavnějším vítězem festivalu v Cannes od dob Pulp Fiction. (csfd.cz, Česká televize)',
+		premiera: '2020-05-06',
+	},
 ]
+/////////////////////////// UKOL 5 -nacteni filmu na stranku //////////////////////
+////// + bonus
+const filmElm = document.querySelector(".card-title")
+const popisElm = document.querySelector(".card-text")
+const plakatElm = document.querySelector("img")
+
+const filmId = window.location.hash.slice(1);
+const filmData = filmy.find((ar) => ar.id === filmId)
+
+filmElm.textContent = filmData.nazev
+popisElm.textContent = filmData.popis
+plakatElm.src = filmData.plakat.url
+
+////////////////////////// UKOL 8 - prace s formularem /////////////////////////
+///// + bonus 
+const noteElm = document.querySelector("#note-form")	
+const zpravaElm = document.querySelector("#message-input")
+const checkboxElm = document.querySelector("#terms-checkbox")
+const novyTxtElm = document.querySelector("#card-text")
+const novyCard = document.querySelector(".card-body")
+
+noteElm.addEventListener("submit", (event) => {
+	event.preventDefault()	
+
+		let elmLen = zpravaElm.value.length
+		let checked = checkboxElm.checked
+		if (elmLen === 0 && !checked) {
+			zpravaElm.classList.add("is-invalid")
+			checkboxElm.classList.add("is-invalid")
+			zpravaElm.focus()
+		} else if (elmLen !== 0 && !checked) {
+			zpravaElm.classList.remove("is-invalid")
+			checkboxElm.classList.add("is-invalid")
+			checkboxElm.focus()
+		} else if (elmLen === 0 && checked) {
+			zpravaElm.classList.add("is-invalid")
+			checkboxElm.classList.remove("is-invalid")
+			zpravaElm.focus()
+		} else {
+			zpravaElm.classList.remove("is-invalid")
+			checkboxElm.classList.remove("is-invalid")
+			noteElm.remove("#note-form")
+			novyCard.innerHTML += `<p class="card-text">${zpravaElm.value}</p>`
+		}		
+})	
+
+//////////////////// UKOL - 7 HVEZDICKY - bonus nedodelany //////////////////////////////
+// chybi dodelat pamatovani si poctu hvezdnicek //////
+const stars = document.querySelectorAll(".fa-star")
+const hvezdicky = (number) => {
+	stars.forEach((polozka, index) => {
+		//console.log(polozka.innerHTML)
+		if (index < number) {
+			polozka.classList.remove("far")	
+			polozka.classList.add("fas")
+		} else {
+			polozka.classList.remove("fas")	
+			polozka.classList.add("far")	
+		}
+	});
+}
+
+stars.forEach((pol) => {
+	pol.addEventListener("click", (event) => {
+		hvezdicky(event.target.innerHTML)
+	})
+})
+
+stars.forEach((pol) => {
+	pol.addEventListener("mouseover", (event) => {
+		hvezdicky(event.target.innerHTML)
+	})
+})
+
+////////////////////////// UKOL - 6 Datumy //////////////////////////
+//// vyreseno jak pro budouci i probehle premiery - prvni 2 filmy maji teprve probehnout
+// + bonux + extra bonus
+const premieraElm = document.querySelector("#premiera")
+const datum = filmData.premiera
+const premiera = dayjs(datum).format("D. M. YYYY")
+const rozdil = dayjs(datum).diff(dayjs(),"days")
+
+const formatovaniDne = (day) => {
+	let znak = day % 10			
+	let znaminko = (day < 0) ? true : false
+
+	let odpoved = "dnů"
+	if ( znak === 1 && znaminko ) {
+		return odpoved = "den"
+	} else if (znak >= 2 && znak <= 4 && znaminko) {
+		return odpoved = "dny"
+	} else if (znaminko) {
+		return odpoved = "dny"
+	} else {
+		return odpoved
+	}	
+}
+//console.log(`${Math.abs(rozdil)}`)
+let text = (rozdil < 0) ? "bylo před" : "je za"
+let doba = (rozdil > 0) ? Number(rozdil) : Number(Math.abs(rozdil))
+
+const znak = formatovaniDne(rozdil)
+premieraElm.innerHTML = `Premiéra <strong>${premiera}</strong>, což ${text} ${doba} ${znak}`
+
+
+////////////////////////// UKOL - 9 Video //////////////////////////
+//Dodelam pozdeji
